@@ -1,4 +1,4 @@
-package org.example.paymentservice3.payment.adapter.`in`.view.controller
+package org.example.paymentservice3.payment.adapter.`in`.web.view
 
 import org.example.paymentservice3.common.WebAdapter
 import org.springframework.stereotype.Controller

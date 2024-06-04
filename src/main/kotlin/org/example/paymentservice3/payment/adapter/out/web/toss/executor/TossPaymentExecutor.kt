@@ -1,4 +1,4 @@
-package org.example.paymentservice3.payment.adapter.out.executor
+package org.example.paymentservice3.payment.adapter.out.web.toss.executor
 
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.function.client.WebClient
@@ -16,8 +16,8 @@ class TossPaymentExecutor (
       .uri(uri)
       .bodyValue("""
         {
-          "paymentKey": "${paymentKey}",
-          "orderId": "${orderId}",
+          "paymentKey": "$paymentKey",
+          "orderId": "$orderId",
           "amount": $amount
         }
       """.trimIndent())

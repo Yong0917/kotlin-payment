@@ -1,9 +1,9 @@
-package org.example.paymentservice3.api
+package org.example.paymentservice3.payment.adapter.`in`.web.api
 
 import org.example.paymentservice3.common.WebAdapter
-import org.example.paymentservice3.payment.adapter.out.executor.TossPaymentExecutor
-import org.example.paymentservice3.payment.adapter.`in`.view.request.TossPaymentConfirmRequest
-import org.example.paymentservice3.payment.adapter.`in`.view.response.ApiResponse
+import org.example.paymentservice3.payment.adapter.out.web.toss.executor.TossPaymentExecutor
+import org.example.paymentservice3.payment.adapter.`in`.web.request.TossPaymentConfirmRequest
+import org.example.paymentservice3.payment.adapter.`in`.web.response.ApiResponse
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping

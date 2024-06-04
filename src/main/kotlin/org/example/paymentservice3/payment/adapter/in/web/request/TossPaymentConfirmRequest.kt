@@ -1,4 +1,4 @@
-package org.example.paymentservice3.payment.adapter.`in`.view.request
+package org.example.paymentservice3.payment.adapter.`in`.web.request
 
 data class TossPaymentConfirmRequest (
     val paymentKey: String,

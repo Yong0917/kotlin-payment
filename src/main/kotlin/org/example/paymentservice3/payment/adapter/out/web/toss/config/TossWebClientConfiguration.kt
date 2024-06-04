@@ -1,4 +1,4 @@
-package org.example.paymentservice3.payment.adapter.out.config
+package org.example.paymentservice3.payment.adapter.out.web.toss.config
 
 import io.netty.handler.timeout.ReadTimeoutHandler
 import org.springframework.beans.factory.annotation.Value
